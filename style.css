@@ -871,7 +871,7 @@ tr td:first-child {
 .why-us {
   position: relative;
   min-height: 100vh;
-  background: url("/images/why-us-bg.jpg");
+  background: url("./images/why-us-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -889,6 +889,8 @@ tr td:first-child {
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
