@@ -871,7 +871,10 @@ tr td:first-child {
 .why-us {
   position: relative;
   min-height: 100vh;
-  background: url("/images/why-us-bg.jpg") center/cover no-repeat;
+  background: url("/images/why-us-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
