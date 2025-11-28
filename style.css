@@ -210,7 +210,6 @@ body {
 .hero {
   position: relative;
   height: 100vh;
-  background-attachment: fixed;
   background-position: center;
 }
 
@@ -872,7 +871,7 @@ tr td:first-child {
 .why-us {
   position: relative;
   min-height: 100vh;
-  background: url("/images/why-us-bg.jpg") center/cover no-repeat fixed;
+  background: url("/images/why-us-bg.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
